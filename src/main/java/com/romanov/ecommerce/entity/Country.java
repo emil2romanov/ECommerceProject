@@ -1,11 +1,13 @@
 package com.romanov.ecommerce.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "country")
-@Data
+@Getter
+@Setter
 public class Country {
 
     @Id
